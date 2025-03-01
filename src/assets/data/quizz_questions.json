@@ -1,0 +1,57 @@
+{
+  "title":"Você é mais introvertido ou extrovetido?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Você gosta de mudanças?",
+      "options":[
+        {"id": 1, "name":"Gosto, mudo de opiniões e estilos de vida sempre que posso", "alias":"A"},
+        {"id": 2, "name":"Não, quase nunca mudo e demoro pra me adaptar", "alias":"B"}
+        
+      ]
+    },
+    {
+      "id":2,
+      "question": "Quem você é no seu grupo de amigos?",
+      "options":[
+        {"id": 1, "name":"O mais engraçado", "alias":"A"},
+        {"id": 2, "name":"O mais inteligente", "alias":"B"},
+        {"id": 3, "name":"O mais atlético", "alias":"A"},
+        {"id": 4, "name":"O rabugento", "alias":"B"},
+        {"id": 5, "name":"Não tenho amigos", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Como você gostaria de gastar um dia livre?",
+      "options":[
+        {"id": 1, "name":"Saindo com meus amigos", "alias":"A"},
+        {"id": 2, "name":"Fazendo uma trilha na natureza", "alias":"B"},
+        {"id": 3, "name":"Indo pra balada", "alias":"A"},
+        {"id": 4, "name":"Sozinho em casa", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Você prefere mais o dia ou a noite?",
+      "options":[
+        {"id": 1, "name":"Dia", "alias":"A"},
+        {"id": 2, "name":"Noite", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Qual a sua ideia de passeio favorita?",
+      "options":[
+        {"id": 1, "name":"Praia", "alias":"A"},
+        {"id": 2, "name":"Livraria", "alias":"B"},
+        {"id": 3, "name":"Shopping", "alias":"A"},
+        {"id": 4, "name":"Cinema", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você provavelmente é mais extrovertido!",
+    "B": "Você provavelmente é mais introvertido!"
+  }
+}
